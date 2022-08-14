@@ -1,0 +1,65 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Prints filenames from folder pet_images/
+ 1 file:            Tea_pot_01.jpg
+ 2 file:               Dogs_01.jpg
+ 3 file:             Rabbit_01.jpg
+ 4 file:               Dogs_02.jpg
+
+Empty Dictionary results_dic - n items= 0
+
+Printing all key-value pairs in dictionary results_dic:
+Filename= Tea_pot_01.jpg    Pet Label= tea pot
+Filename= Dogs_01.jpg    Pet Label= dogs
+Filename= Rabbit_01.jpg    Pet Label= rabbit
+Filename= Dogs_02.jpg    Pet Label= dogs
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                 Tea_pot_01.jpg  label:                    tea pot
+ 2 key:                    Dogs_01.jpg  label:                       dogs
+ 3 key:                  Rabbit_01.jpg  label:                     rabbit
+ 4 key:                    Dogs_02.jpg  label:                       dogs
+
+     MATCH:
+
+ NOT A MATCH:
+
+                Tea_pot_01.jpg: 
+Real:                    tea pot   Classifier:                         teapot
+
+                   Dogs_01.jpg: 
+Real:                       dogs   Classifier:                         beagle
+
+                 Rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare
+
+                   Dogs_02.jpg: 
+Real:                       dogs   Classifier:                      chihuahua
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                Tea_pot_01.jpg: 
+Real:                    tea pot   Classifier:                         teapot  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Dogs_01.jpg: 
+Real:                       dogs   Classifier:                         beagle  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                 Rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Dogs_02.jpg: 
+Real:                       dogs   Classifier:                      chihuahua  
+PetLabelDog: 0  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
