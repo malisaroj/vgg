@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: Saroj Mali
 # DATE CREATED: 2022/08/08                                 
-# REVISED DATE: 
+# REVISED DATE: 2022/08/21
 # PURPOSE: Create the function get_pet_labels that creates the pet labels from 
 #          the image's filename. This function inputs: 
 #           - The Image Folder as image_dir within get_pet_labels function and 
@@ -84,4 +84,4 @@ def get_pet_labels(image_dir):
                print("** Warning: Duplicate files exist in directory:", 
                      in_files[idx])
  
-    return 
+    return results_dic
